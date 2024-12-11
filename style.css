@@ -1,0 +1,108 @@
+/* Базовые стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  /* Шапка */
+  header {
+    background: #0078D7;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header .highlight {
+    color: #FFD700;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Раздел "Обо мне" */
+  #about {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Раздел "Портфолио" */
+  #portfolio {
+    background: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #portfolio h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .portfolio-item {
+    background: #0078D7;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Раздел "Контакты" */
+  #contact {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #contact a {
+    color: #0078D7;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Подвал */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
